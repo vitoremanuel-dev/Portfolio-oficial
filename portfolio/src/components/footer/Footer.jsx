@@ -1,8 +1,32 @@
-import "./Footer.module.css"
+import "./Footer.css"
+
+import { AiOutlineLinkedin } from "react-icons/ai"
+import { AiOutlineGithub } from "react-icons/ai"
+import { BsInstagram } from "react-icons/bs"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <a href="#" className="footer__logo">VÍTOR EMANUEL</a>
+
+      <ul className="permalinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#experience">Experiência</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+
+      <div className="footer__socials">
+        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><AiOutlineLinkedin /></a>
+        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><AiOutlineGithub /></a>
+        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><BsInstagram /></a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy; VITOREMANUEL-DEV</small>
+      </div>
+    </footer>
   )
 }
 
