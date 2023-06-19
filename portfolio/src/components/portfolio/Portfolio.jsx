@@ -1,13 +1,15 @@
 import "./Portfolio.css"
 import IMG1 from "../../assets/portfolio1.jpg"
 
+import TAREFAS from "../../assets/tarefas.png"
+
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Esse é um dos meus projetos",
-    github: "https://github.com",
-    demo: "https://dribble.com/Alien_pixels"
+    image: TAREFAS,
+    title: "To-do List",
+    github: "https://github.com/vitoremanuel-dev/lista-de-tarefas-react",
+    demo: "https://vitoremanuel-dev.github.io/lista-de-tarefas-react/"
   },
   {
     id: 2,
