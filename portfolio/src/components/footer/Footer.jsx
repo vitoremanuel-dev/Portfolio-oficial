@@ -2,7 +2,6 @@ import "./Footer.css"
 
 import { AiOutlineLinkedin } from "react-icons/ai"
 import { AiOutlineGithub } from "react-icons/ai"
-import { BsInstagram } from "react-icons/bs"
 
 const Footer = () => {
   return (
@@ -18,9 +17,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><AiOutlineLinkedin /></a>
-        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><AiOutlineGithub /></a>
-        <a href="https://www.linkedin.com/in/vitoremanuel-dev/"><BsInstagram /></a>
+        <a href="https://www.linkedin.com/in/vitoremanuel-dev/" target="_blank"><AiOutlineLinkedin /></a>
+        <a href="https://github.com/vitoremanuel-dev/" target="_blank"><AiOutlineGithub /></a>
       </div>
 
       <div className="footer__copyright">

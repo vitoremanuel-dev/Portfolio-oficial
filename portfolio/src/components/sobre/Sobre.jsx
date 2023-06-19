@@ -1,8 +1,8 @@
 import "./Sobre.css"
 
 import { FiAward } from "react-icons/fi"
-import {FiUsers} from "react-icons/fi"
-import {VscFolderOpened} from "react-icons/vsc"
+import { FiUsers } from "react-icons/fi"
+import { VscFolderOpened } from "react-icons/vsc"
 
 const Sobre = () => {
   return (
@@ -38,7 +38,12 @@ const Sobre = () => {
             </article>
           </div>
 
-          <p>VOU FALAR TUDO SOBRE MIM AQUI, TEM QUE SER BREVE E ATRAENTE</p>
+          <p>Desenvolvedor Front-End aplicado em criar interfaces atraentes e intuitivas.
+            Busco integrar uma equipe criativa para impactar positivamente a experiência do
+            usuário. Atualizado com as últimas tecnologias. Minha dedicação e paixão
+            garantem interfaces incríveis e funcionais. Procuro oportunidades de ingressar
+            no mercado de trabalho. Entusiasmado em colaborar em um ambiente dinâmico
+            e colaborativo.</p>
 
           <a href="#contato" className="btn btn-primary">Vamos conversar</a>
         </div>
