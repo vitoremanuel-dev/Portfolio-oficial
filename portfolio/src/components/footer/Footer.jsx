@@ -10,10 +10,10 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#experience">Experiência</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contato</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
 
       <div className="footer__socials">
